@@ -1,11 +1,74 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Biodata Pribadi</title>
 </head>
 <body>
-    
+    <!-- Judul Halaman -->
+    <h1>Gede Andika Ardana</h1>
+    <h2>Profil Singkat</h2>
+    <p>
+        Halo! Saya Gede Andika Ardana, lahir di Buleleng 15 Mei 2006. Saya adalah mahasiswa dari Universitas Pendidikan Nasional jurusan Teknologi Informasi. 
+        Saya memiliki hobi bermain Bola Basket, cita cita saya dulu supaya bisa bermain di liga Profesional. Saya memiliki ketertarikan dalam bidang teknologi informasi dan pengembangan web. 
+        Tujuan saya adalah menjadi web developer yang handal dan inovatif.
+    </p>
+
+    <!-- Gambar Profil -->
+    <h2>Foto Profil</h2>
+    <img src="image/fotoprofile.jpg" alt="Foto Profil Nama Anda" width="200">
+
+    <!-- Media Sosial -->
+    <h2>Media Sosial</h2>
+    <ul>
+        <li><a href="https://www.instagram.com/petotpeotrysm" target="_blank">Instagram</a></li>
+        <li><a href="https://www.tiktok.com/@pararudin" target="_blank">TikTok</a></li>
+        <li><a href="https://github.com/username" target="_blank">GitHub</a></li>
+    </ul>
+
+    <!-- Tabel Pendidikan -->
+    <h2>Riwayat Pendidikan</h2>
+    <table border="1" cellpadding="5" cellspacing="0">
+        <tr>
+            <th>Jenjang</th>
+            <th>Nama Institusi</th>
+        </tr>
+        <tr>
+            <td>SD</td>
+            <td>SDK 1 HARAPAN</td>
+        </tr>
+        <tr>
+            <td>SMP</td>
+            <td>SMPK 1 HARAPAN</td>
+        </tr>
+        <tr>
+            <td>SMA</td>
+            <td>SMK TI GLOBAL DENPASAR</td>
+        </tr>
+        <tr>
+            <td>Kuliah</td>
+            <td>Universitas Pendidikan Nasional</td>
+        </tr>
+    </table>
+
+    <!-- Formulir Kontak -->
+    <h2>Hubungi Saya</h2>
+    <form action="submit_form.php" method="post">
+        <label for="name">Nama Lengkap:</label><br>
+        <input type="text" id="name" name="fullname" required><br><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="emailaddr" required><br><br>
+
+        <label for="message">Pesan:</label><br>
+        <textarea id="message" name="usermessage" rows="4" cols="40" required></textarea><br><br>
+
+        <button type="submit">Kirim</button>
+    </form>
+
+    <hr>
+    <p style="text-align:center;">&copy; 2025 Biodata Pribadi - Dibuat dengan HTML Dasar</p>
 </body>
 </html>
